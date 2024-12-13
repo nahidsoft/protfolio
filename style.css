@@ -1,0 +1,23 @@
+#about{
+background-attachment: fixed;
+}
+.hero{
+    background-attachment: fixed;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.shopify.com/s/files/1/0070/7032/articles/best_20image_20size_20for_20website.png?v=1727452389') no-repeat center center/cover;
+    filter: blur(10px); /* Blur effect */
+    z-index: -1; /* Keeps it behind the content */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: black;
+}
